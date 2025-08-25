@@ -52,8 +52,8 @@ cd LineTextEdit
     )
 ```
 
-## ScreenShop
-![sample](screenshots/screenshot1?raw=true)
+## ScreenShot
+![sample](screenshots/screenshot1.jpg?raw=true)
 
 ## License
 
