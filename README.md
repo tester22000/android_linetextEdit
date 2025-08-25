@@ -28,14 +28,6 @@ It allows users to edit multi-line text on a per-line basis, offering intuitive 
 
 ---
 
-## 🚀 Installation
-
-```bash
-git clone https://github.com/tester22000/android_.git
-cd LineTextEdit
-./gradlew build
-```
-
 ## Usage
 ```kotlin
     var content by remember { mutableStateOf("Sample Text") }
