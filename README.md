@@ -1,19 +1,18 @@
 # 📄 LineTextEdit
 
 **LineTextEdit** is a Kotlin-based text editing component built with **Jetpack Compose** and **Hilt**.  
-It allows users to edit multi-line text on a per-line basis, offering intuitive UI and modern UX with ripple feedback and material design.
+It allows users to edit multi-line text on a per-line basis, offering intuitive UI and modern UX with material design.
 
 ---
 
 ## ✨ Features
 
 - ✅ Standard multi-line text editing (TextEdit View)
-- ✂️ Line-by-line editing (LineTextEdit View)
+- ✂️ Line-by-line editing
 - 📌 Line selection and range deletion
 - 📝 Individual line modification with multi-line support
 - 💾 Save and cancel actions
 - 🎨 Material Design UI
-- ⚡ Ripple effect for touch feedback
 
 ---
 
@@ -41,7 +40,7 @@ cd LineTextEdit
 ```kotlin
     var content by remember { mutableStateOf("Sample Text") }
     LineTextEdit(
-        content1,
+        content,
         modifier = Modifier.fillMaxWidth()
             .weight(1f),
         onSave = { text ->
